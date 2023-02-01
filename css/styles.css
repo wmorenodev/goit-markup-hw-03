@@ -1,0 +1,172 @@
+:root {
+  --brand-color: #2196f3;
+  --logo-color: #000000;
+  --title-color: #212121;
+  --main-color: #757575;
+  --white-color: #fff;
+  --background-color: #2f303a;
+  --footerlink-color: rgba(255, 255, 255, 0.6);
+  --filterbutton-color: #f5f4fa;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+}
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  background: var(--white-color);
+}
+.header a {
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--brand-color);
+}
+.logo span {
+  color: var(--logo-color);
+}
+.navigation a {
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+.contact a {
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.contact a:hover {
+  color: var(--brand-color);
+}
+.contact a:focus {
+  color: var(--brand-color);
+}
+.navigation a:hover {
+  color: var(--brand-color);
+}
+.navigation a:focus {
+  color: var(--brand-color);
+}
+.order-service {
+  background: var(--background-color);
+}
+.order-service h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+.order-service button {
+  background: var(--brand-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  cursor: pointer;
+}
+.order-list h4 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  color: var(--title-color);
+  text-transform: uppercase;
+}
+.order-list p {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.range h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--title-color);
+  line-height: 1.17;
+}
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--title-color);
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.team span {
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+/* .filter-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+} */
+.filter-list button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  background: var(--filterbutton-color);
+  color: var(--title-color);
+}
+.filter-list button:hover {
+  background: var(--brand-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+.filter-list button:focus {
+  background: var(--brand-color);
+  color: var(--white-color);
+}
+.portfolio h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+.lowercase {
+  text-transform: lowercase;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.portfolio-description {
+  font-size: 16px;
+  line-height: 1.88;
+}
+.footer {
+  background: var(--background-color);
+  font-size: 14px;
+  line-height: 1;
+}
+.footer a {
+  text-decoration: none;
+  font-style: normal;
+}
+.footer .logo span {
+  color: var(--white-color);
+}
+.footer li a {
+  color: var(--footerlink-color);
+  line-height: 1.71;
+}
+.footer .footer-map {
+  color: var(--white-color);
+  line-height: 1.71;
+}
+.footer a:hover {
+  color: var(--brand-color);
+}
