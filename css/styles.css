@@ -7,17 +7,38 @@
   --background-color: #2f303a;
   --footerlink-color: rgba(255, 255, 255, 0.6);
   --filterbutton-color: #f5f4fa;
+  box-sizing: border-box;
 }
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
   letter-spacing: 0.03em;
 }
+h1 {
+}
+h2 {
+}
+h3 {
+}
+h4 {
+}
+p {
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
 .header {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
   background: var(--white-color);
+  width: 1600px;
+  height: 80px;
 }
 .header a {
   text-decoration: none;
@@ -28,13 +49,24 @@ body {
   font-size: 26px;
   line-height: 1.2;
   color: var(--brand-color);
+  margin-left: 0;
 }
 .logo span {
   color: var(--logo-color);
 }
+.navigation {
+}
+.navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+}
 .navigation a {
   letter-spacing: 0.02em;
   color: var(--title-color);
+}
+.contact {
+  display: flex;
+  flex-wrap: wrap;
 }
 .contact a {
   letter-spacing: 0.02em;
@@ -119,6 +151,12 @@ body {
   line-height: 1.62;
   background: var(--filterbutton-color);
   color: var(--title-color);
+}
+.left {
+  margin-left: 0;
+}
+.right {
+  margin-right: 0;
 }
 .filter-list button:hover {
   background: var(--brand-color);
