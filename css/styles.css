@@ -122,6 +122,7 @@ body {
   color: var(--lightcloud-color);
   letter-spacing: 0.02em;
   font-weight: 400;
+  font-size: 16px;
   text-transform: none;
 }
 .filterbutton {
