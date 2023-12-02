@@ -21,6 +21,7 @@ body {
 .container {
   width: 1158px;
 }
+
 .section {
   padding: 120px 0;
 }
@@ -42,6 +43,14 @@ body {
 }
 .list {
   list-style: none;
+  display: flex;
+}
+
+.headerc {
+  display: flex;
+}
+.navigation {
+  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
