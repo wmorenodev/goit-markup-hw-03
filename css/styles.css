@@ -21,6 +21,9 @@ body {
 .container {
   width: 1158px;
 }
+.section {
+  padding: 120px 0;
+}
 .nodisplay {
 }
 .link {
