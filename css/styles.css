@@ -18,6 +18,9 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.container {
+  width: 1158px;
+}
 .nodisplay {
 }
 .link {
