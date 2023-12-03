@@ -131,12 +131,12 @@ body {
 }
 .charlist li {
   margin-right: 24px;
-  width: calc((100%-72px) / 4);
 }
 .charlist li:last-child {
   margin-right: 0;
 }
 .charitem {
+  width: calc((100%-72px) / 4);
 }
 .charheaderter {
   margin-bottom: 8px;
