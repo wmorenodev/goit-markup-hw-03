@@ -33,7 +33,8 @@ body {
 .image {
   display: block;
 }
-.nodisplay {
+.visually-hidden {
+  display: none;
 }
 .link {
   text-decoration: none;
