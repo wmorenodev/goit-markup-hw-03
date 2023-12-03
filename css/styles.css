@@ -130,10 +130,10 @@ body {
   background-color: var(--pressedocean-color);
 }
 .charlist {
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .charlist li {
   margin-right: 24px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .charlist li:last-child {
   margin-right: 0;
