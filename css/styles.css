@@ -130,6 +130,17 @@ body {
 .orderbutton:focus {
   background-color: var(--pressedocean-color);
 }
+.charlist {
+  margin-right: 24px;
+}
+.charlist:last-child {
+  margin-right: 0;
+}
+.charitem {
+}
+.charheaderter {
+  margin-bottom: 8px;
+}
 .headertertialy {
   font-weight: 500;
   font-size: 20px;
