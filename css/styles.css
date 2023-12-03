@@ -97,6 +97,7 @@ body {
 }
 .sectionone {
   background-color: var(--darknavy-color);
+  padding: 188px 0 188px;
 }
 .headerprimary {
   font-size: 56px;
