@@ -136,7 +136,7 @@ body {
   margin-right: 0;
 }
 .charitem {
-  width: calc((100%-3 * 24px) / 4);
+  flex-basis: calc((100%-3 * 24px) / 4);
 }
 .charheaderter {
   margin-bottom: 8px;
