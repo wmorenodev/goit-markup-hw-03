@@ -57,7 +57,12 @@ body {
 .headerc {
   display: flex;
 }
-.headerl {
+.headerl li {
+  margin-right: 40px;
+}
+
+.headerl li:last-child {
+  margin-right: 0;
 }
 
 .navigation {
