@@ -151,6 +151,11 @@ body {
 }
 .foots {
   background-color: var(--darknavy-color);
+  padding: 100px 0 100px;
+}
+.foots a {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footerpar {
   font-family: "Roboto";
