@@ -59,11 +59,13 @@ body {
 }
 .navlist li {
   margin-right: 40px;
-  padding: 24px 0 24px;
 }
 
 .navlist li:last-child {
   margin-right: 0;
+}
+.navlist a {
+  padding: 24px 0 24px;
 }
 
 .navigation {
