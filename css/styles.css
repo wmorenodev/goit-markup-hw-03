@@ -129,10 +129,10 @@ body {
 .orderbutton:focus {
   background-color: var(--pressedocean-color);
 }
-.charlist {
+.charlist li {
   margin-right: 24px;
 }
-.charlist:last-child {
+.charlist li:last-child {
   margin-right: 0;
 }
 .charitem {
