@@ -18,12 +18,20 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+.header {
+  border-bottom: 1px solid var(--accentcorn-color);
+}
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: o 15px 0 15px;
 }
 
 .section {
   padding: 120px 0;
+}
+.image {
+  display: block;
 }
 .nodisplay {
 }
@@ -51,6 +59,7 @@ body {
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -60,6 +69,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primaryiris-color);
+  margin-right: 76px;
 }
 .logospan {
   color: var(--darknavy-color);
