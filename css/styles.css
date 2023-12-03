@@ -131,14 +131,13 @@ body {
 }
 .charlist li {
   margin-right: 24px;
-  flex-basis: calc((100%-3 * 24px) / 4);
 }
 .charlist li:last-child {
   margin-right: 0;
 }
-/* .charlist li:first-child {
+.charitem {
   flex-basis: calc((100%-3 * 24px) / 4);
-} */
+}
 .charheaderter {
   margin-bottom: 8px;
 }
