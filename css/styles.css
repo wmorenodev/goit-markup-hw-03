@@ -57,11 +57,12 @@ body {
 .headerc {
   display: flex;
 }
-.headerl li {
+.navlist li {
   margin-right: 40px;
+  padding: 24px 0 24px;
 }
 
-.headerl li:last-child {
+.navlist li:last-child {
   margin-right: 0;
 }
 
