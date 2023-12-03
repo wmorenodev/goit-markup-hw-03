@@ -24,7 +24,7 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: o 15px 0 15px;
+  padding: 0 15px 0 15px;
 }
 
 .section {
@@ -57,6 +57,9 @@ body {
 .headerc {
   display: flex;
 }
+.headerl {
+}
+
 .navigation {
   display: flex;
   align-items: center;
