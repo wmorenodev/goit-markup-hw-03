@@ -26,7 +26,9 @@ body {
   background-color: #ffffff;
 }
 .header {
+  display: flex;
   border-bottom: 1px solid var(--accentcorn-color);
+  height: 72px;
 }
 .container {
   width: 1158px;
@@ -75,6 +77,9 @@ body {
 .headerc {
   display: flex;
 }
+.navlist {
+  margin-right: 332px;
+}
 .navlist li {
   margin-right: 40px;
 }
@@ -84,6 +89,7 @@ body {
 }
 .navlist a {
   padding: 24px 0 24px;
+  text-wrap: nowrap;
 }
 
 .navigation {
@@ -108,11 +114,17 @@ body {
 }
 .a-dress {
   font-style: normal;
+  padding: 24px 0;
+}
+.a-dresslist {
 }
 .a-dress a {
   color: var(--textslate-color);
   font-weight: 400;
+  margin-right: 40px;
+  text-wrap: nowrap;
 }
+
 .sectionone {
   background-color: var(--darknavy-color);
   padding: 188px 0 188px;
