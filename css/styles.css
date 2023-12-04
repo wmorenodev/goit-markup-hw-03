@@ -177,8 +177,21 @@ body {
 .sectionfour {
   background-color: var(--lightcloud-color);
 }
+.headerteam {
+  margin-bottom: 72px;
+}
+.teamlist li {
+  margin-right: 24px;
+}
+.teamlist li:last-child {
+  margin-right: 0;
+}
 .teamitem {
   background-color: var(--whitewhite-color);
+  border-radius: 0 0 4px 4px;
+}
+.employee {
+  padding: 32px 16px 32px;
 }
 .foots {
   background-color: var(--darknavy-color);
