@@ -131,7 +131,6 @@ body {
   background-color: var(--pressedocean-color);
 }
 .charlist {
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .charlist li {
   margin-right: 24px;
@@ -140,6 +139,7 @@ body {
   margin-right: 0;
 }
 .charitem {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .charheaderter {
   margin-bottom: 8px;
