@@ -272,3 +272,10 @@ body {
   gap: 24px;
   margin-bottom: 72px;
 }
+.portfoliomainlist {
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfoliomainitem {
+}
