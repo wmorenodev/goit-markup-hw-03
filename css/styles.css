@@ -147,13 +147,11 @@ body {
   background-color: var(--pressedocean-color);
 }
 .charlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
-.charlist li {
-  margin-right: 24px;
-}
-.charlist li:last-child {
-  margin-right: 0;
-}
+
 .charitem {
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
@@ -196,14 +194,12 @@ body {
 .headerteam {
   margin-bottom: 72px;
 }
-.teamlist li {
+.teamlist {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 }
-.teamlist li:last-child {
-  margin-right: 0;
-}
+
 .teamitem {
   background-color: var(--whitewhite-color);
   border-radius: 0 0 4px 4px;
