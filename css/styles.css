@@ -17,6 +17,7 @@
   --herogray-color: #2e2f42b2;
   --whitewhite-color: #ffffff;
   --modaldairy-color: #fcfcfc;
+  --transparent-color: transparent;
 }
 
 body {
@@ -241,14 +242,19 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px 12px;
+  border: 1px solid var(--accentcorn-color);
+  border-radius: 4px;
 }
 .filterbutton:hover {
   color: var(--whitewhite-color);
   background-color: var(--pressedocean-color);
+  border: 1px solid var(--transparent-color);
 }
 .filterbutton:focus {
   color: var(--whitewhite-color);
   background-color: var(--pressedocean-color);
+  border: 1px solid var(--transparent-color);
 }
 .headerfilter {
   font-weight: 500;
@@ -257,4 +263,12 @@ body {
 }
 .filterpar {
   font-weight: 400;
+}
+.portfoliomain {
+  padding: 96px 0 120px 0;
+}
+.filterbuttonlist {
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
 }
