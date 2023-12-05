@@ -79,9 +79,7 @@ body {
 }
 .navlist {
   margin-right: 332px;
-}
-.navlist li {
-  margin-right: 40px;
+  gap: 40px;
 }
 
 .navlist li:last-child {
@@ -117,11 +115,11 @@ body {
   padding: 24px 0;
 }
 .a-dresslist {
+  gap: 40px;
 }
 .a-dress a {
   color: var(--textslate-color);
   font-weight: 400;
-  margin-right: 40px;
   text-wrap: nowrap;
 }
 
