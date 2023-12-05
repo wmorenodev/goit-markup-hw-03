@@ -76,9 +76,9 @@ body {
 
 .headerc {
   display: flex;
+  gap: 332px;
 }
 .navlist {
-  margin-right: 332px;
   gap: 40px;
 }
 
@@ -128,7 +128,9 @@ body {
   padding: 188px 0 188px;
 }
 .sonecont {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .headerprimary {
   font-size: 56px;
