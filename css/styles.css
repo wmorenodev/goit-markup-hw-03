@@ -129,6 +129,9 @@ body {
   background-color: var(--darknavy-color);
   padding: 188px 0 188px;
 }
+.sonecont {
+  text-align: center;
+}
 .headerprimary {
   font-size: 56px;
   line-height: 1.07;
@@ -136,6 +139,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--whitewhite-color);
   max-width: 496px;
+  margin-bottom: 48px;
+  display: inline-block;
 }
 .orderbutton {
   background-color: var(--primaryiris-color);
@@ -152,6 +157,7 @@ body {
   height: 56px;
   border: none;
   border-radius: 4px;
+  padding: 16px 32px;
 }
 .orderbutton:hover {
   background-color: var(--pressedocean-color);
@@ -168,6 +174,9 @@ body {
 }
 .charheaderter {
   margin-bottom: 8px;
+}
+.sectionthree {
+  padding-top: 0;
 }
 .sthreehsec {
   margin-bottom: 72px;
@@ -214,6 +223,9 @@ body {
   background-color: var(--whitewhite-color);
   border-radius: 0 0 4px 4px;
   flex-basis: calc((100% - 3 * 24px) / 4);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .employee {
   padding: 32px 0px;
@@ -241,6 +253,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   text-transform: none;
+  max-width: 264px;
 }
 .filterbutton {
   color: var(--primaryiris-color);
@@ -273,6 +286,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 8px;
+  text-align: left;
 }
 .filterpar {
   font-weight: 400;
